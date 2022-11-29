@@ -593,6 +593,18 @@ footer .copyright{
     margin-right: 10px;
 }
 
+#prodetails .single-pro-details button {
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
 
 
 
@@ -750,6 +762,22 @@ footer .copyright{
     }
     footer .copyright {
         text-align: start;
+    }
+
+    /* single page styling */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+        padding-top: 30px;
     }
 
 }
